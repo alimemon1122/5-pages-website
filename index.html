@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+</head>
+<body>
+    
+<div class="header">
+<nav class="navbar md:navbar-expand bg-1"  data-bs-theme="dark">
+  <div class="container-fluid">
+  <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT73Gy_FVP4GTVoeAxv5Hn88IqnQzsuTahAe6-shazMgg&s=10" alt="">
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+      <div class="drawer-header">
+        <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <div class="drawer-body mb-2 md:mb-0">
+        <ul class="nav navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./collection.html">Headphones</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./earbuds.html">Earbuds</a>
+            <div class="menu">
+              <a class="menu-item" href="#">Action</a>
+              <a class="menu-item" href="#">Another action</a>
+              <hr class="menu-divider">
+              <a class="menu-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link active" aria-current="page" href="./cart.html">Power Bank</a>
+          </li>
+        </ul>
+        <form class="hstack gap-2" role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn-solid btn-icon theme-secondary" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg>
+          </button>
+        </form>
+      </div>
+    </dialog>
+  </div>
+</nav>
+</div>
+
+<div class="hero-banner">
+<div id="carouselStacked" class="carousel slide" data-bs-autoplay="true">
+  <div class="d-flex justify-content-between align-items-center">
+    <h5 class="mb-0"></h5>
+    <div>
+      <!-- <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStacked" data-bs-slide="prev"> -->
+        <!-- <span class="carousel-icon-prev" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStacked" data-bs-slide="next">
+        <span class="carousel-icon-next" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+  </div>
+  <div class="carousel-inner rounded-5 ">
+    <div class="carousel-item active">
+      <img src="./assest/Offer Banner@1x.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assest/Trust Banner@1x.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assest/New Arrivals Banner@1x.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<h1 class="mp">MOST POPULAR</h1>
+
+<br>
+<br>
+<div class=" d-flex justify-content-around flex-wrap gap-10">
+
+  <section class="card" style="max-width: 320px"  row-cols-1 md:row-cols-3 g-4 >
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwPdnuCQ99jImuulitm6_BShInyaLvANop79hAAN7CUQ&s=10" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">AIRPODS PRO 2</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+      <a href="#" class="btn-solid theme-primary">BUY NOW</a>
+    </div>
+  </section>
+  
+  <section class="card" style="max-width: 320px" >
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmRMDX2MaeRZw8zlrr2-mQbHSb4ELWOrASbs9T_dfAhQ&s" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">HANDFREE</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+      <a href="#" class="btn-solid theme-primary">BUY NOW</a>
+    </div>
+  </section>
+   <section class="card" style="max-width: 320px" >
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHjaaeBrJPy4Vc_8VR5H45Z1fwefbWpk-c5bPOsmKMMhaS-u7awNUnO3Ob&s=10" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">POWER BANK</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+      <a href="#" class="btn-solid theme-primary">BUY NOW</a>
+    </div>
+  </section>
+
+
+
+  
+
+  <section class="card" style="max-width: 320px"  row-cols-1 md:row-cols-3 g-4 >
+    <img src="https://dynamiteaccessories.pk/wp-content/uploads/2025/02/New_Project_4_c9279df9-9f1c-4aa7-b688-2e7db7860df9.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">MIC</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+      <a href="#" class="btn-solid theme-primary">BUY NOW</a>
+    </div>
+  </section>
+  
+  <section class="card" style="max-width: 320px" >
+    <img src="https://wp.dotbox.pk/wp-content/uploads/2025/04/m2mo3.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">COOLING FAN</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+      <a href="#" class="btn-solid theme-primary">BUY NOW</a>
+    </div>
+  </section>
+   <section class="card" style="max-width: 320px" >
+    <img src="https://amaze.pk/cdn/shop/files/Artboard_205_300x-100_1200x1200.jpg?v=1789223718" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">CAR HOLDER</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+      <a href="#" class="btn-solid theme-primary">BUY NOW</a>
+    </div>
+  </section>
+
+  </div>
+
+
+
+
+
+<footer class="main-footer">
+
+    <div class="footer-container">
+
+        <!-- Logo -->
+        <div class="footer-logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT73Gy_FVP4GTVoeAxv5Hn88IqnQzsuTahAe6-shazMgg&s=10" alt="Website Logo">
+        </div>
+
+        <!-- About -->
+        <div class="footer-column">
+            <h3>About Us</h3>
+            <p>
+                Welcome to our store. We provide
+                quality products with the best
+                shopping experience.
+            </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./collection.html">Collection</a></li>
+                <li><a href="./earbuds.html">Earbuds</a></li>
+                <li><a href="./cart.html">Cart</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>Email: alimemon1122@gmail.com</p>
+            <p>Phone: +92 3223056850</p>
+            <p>Pakistan</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 My Store. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>  
+</body>
+</html>
